@@ -23,5 +23,5 @@ jobs:
 
     - name: Build and push Docker image
       run: |
-        docker buildx build --platform linux/amd64,linux/arm64 -t docker:latest .
-        docker push docker:latest
+        docker buildx build --platform linux/amd64,linux/arm64 -t saiswetha07/my_docker_repo:v1 .
+        docker push saiswetha07/my_docker_repo:v1
